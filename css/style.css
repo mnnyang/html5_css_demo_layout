@@ -200,3 +200,53 @@ a {
     left: 3px;
 }
 
+#footer {
+    height: 360px;
+    background-color: #222222;
+}
+
+#footer .top {
+    width: 1263px;
+    height: 281px;
+    /*background-color:red;*/
+    margin: 0 auto;
+    text-align: center; /*  居中*/
+}
+
+#footer .block {
+    width: 410px;
+    height: 280px;
+    display: inline-block;
+    text-align: left;
+    color: #cccccc;
+    /*background-color: red;*/
+    vertical-align: top;
+}
+
+#footer h2{
+    font-size: 24px;
+    font-weight: normal;
+    padding: 20px 0 0 20px;
+}
+
+#footer hr{
+    width: 90%;
+    border: 1px dashed #333333;
+}
+
+#footer ul{
+    font-size: 18px;
+    color: #777777;
+    text-indent: 20px;
+    line-height: 2;
+}
+
+#footer .bottom {
+    height: 81px;
+    line-height: 80px;
+    text-align: center;
+    color: #777777;
+    background-color: #000000;
+    border-top: 1px solid #444444;
+}
+
